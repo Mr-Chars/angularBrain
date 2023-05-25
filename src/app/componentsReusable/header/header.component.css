@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(253, 222, 253);
+}
+
+.nav .left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    color: purple;
+}
+
+.nav .left .nav-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav .left .nav-item .right {
+    background-color: purple;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.right .nav-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

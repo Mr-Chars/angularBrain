@@ -1,0 +1,22 @@
+.my-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.my-container .btn-container {
+    margin-bottom: 30px;
+
+}
+
+.my-container .btn-container button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-container .items-container .item {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
